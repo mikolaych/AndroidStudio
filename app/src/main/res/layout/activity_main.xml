@@ -12,15 +12,79 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/headText"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:text="TextView" />
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/head_text"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button"
+        <EditText
+            android:id="@+id/firstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/secondName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/second_name"
+            android:inputType="textPersonName"/>
+
+        <Switch
+            android:id="@+id/switchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/switch_text"
+            android:textColor="@color/blue"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/chBox_text"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/onOffText"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/on_off_text"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/onOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Вкл"
+            android:textOff="Выкл"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/red"
+            android:background="@color/button"
+            android:text="@string/button_text" />
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
