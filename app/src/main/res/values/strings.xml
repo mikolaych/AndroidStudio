@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">GeekBrains1</string>
-    <string name="head_text">Данные о пользователе</string>
-    <string name="first_name">Имя</string>
-    <string name="second_name">Фамилия</string>
-    <string name="switch_text">Резидент</string>
-    <string name="chBox_text">Добавить в базу</string>
+    <string name="head_text">Умножение/деление двух чисел</string>
+    <string name="first_name">Первое число</string>
+    <string name="second_name">Второе число</string>
+    <string name="result">Результат</string>
+    <string name="switch_text">Туда/сюда</string>
+    <string name="chBox_text">Запись в файл</string>
     <string name="button_text">Пуск</string>
     <string name="on_off_text">Протоколирование</string>
 </resources>
