@@ -46,12 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 } catch (NumberFormatException e) {
 
                     res.setText("Ошибка!");
-
                 }
-
             }
         });
-
-
     }
 }
