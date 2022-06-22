@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:columnCount="4"
     android:layout_margin="10dp"
-    android:useDefaultMargins="true">
+    android:useDefaultMargins="true"
+    android:background="@drawable/background_calc">
 
 
     <TextView
@@ -16,7 +17,7 @@
         android:background="@color/calc_result"
         android:text="@string/result"
         android:textAlignment="center"
-        android:textColor="@color/blue"
+        android:textColor="@color/black"
         android:textSize="34sp" />
 
 
@@ -25,8 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/red"        
-        
+        android:textColor="@color/red"
         android:backgroundTint="@color/green"
         android:text="@string/num_7"
         android:textSize="24sp"/>
@@ -46,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_9" />
@@ -55,7 +56,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/green"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:text="@string/divide" />
 
@@ -64,6 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_4" />
@@ -73,6 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_5" />
@@ -82,6 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_6" />
@@ -91,7 +96,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/green"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:text="@string/multiply" />
 
@@ -100,7 +106,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
+
         android:textSize="24sp"
         android:text="@string/num_1" />
 
@@ -109,6 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_2" />
@@ -118,6 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_3" />
@@ -127,7 +137,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/green"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:text="@string/minus" />
 
@@ -136,6 +147,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/plus_minus" />
@@ -145,6 +157,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/num_0" />
@@ -154,6 +167,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:backgroundTint="@color/green"
         android:textColor="@color/red"
         android:textSize="24sp"
         android:text="@string/dot" />
@@ -163,7 +177,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/green"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:text="@string/plus" />
 
@@ -174,7 +189,8 @@
         android:layout_columnSpan="4"
         android:textSize="24sp"
         android:gravity="center_horizontal"
-        android:textColor="@color/teal_200"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         android:text="@string/equals" />
 
 
