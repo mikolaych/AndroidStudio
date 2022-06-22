@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.calculator);
 
         EditText fd = findViewById(R.id.firstDigit);
         EditText sd = findViewById(R.id.secondDigit);
