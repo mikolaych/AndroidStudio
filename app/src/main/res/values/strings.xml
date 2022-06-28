@@ -24,6 +24,8 @@
     <string name="equals">=</string>
     <string name="dot">.</string>
     <string name="plus_minus">+/-</string>
-    <string name="result">Результат</string>
+    <string name="ce">CE</string>
+    <string name="percent">%</string>
+
 
 </resources>
